@@ -1,0 +1,22 @@
+{
+  "name": "Real_FMBase",
+  "version": "0.1.0",
+  "summary": "A short description of Real_FMBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/14049575@qq.com/Real_FMBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "14049575@qq.com": "14049575@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/14049575@qq.com/Real_FMBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Real_FMBase/Classes/**/*"
+}
