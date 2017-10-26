@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Real_FMBase_Example' do
+  pod 'Real_FMBase', :path => '../'
+
+  target 'Real_FMBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
