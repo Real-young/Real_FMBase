@@ -22,7 +22,7 @@ pod 'Real_FMBase'
 
 ## Author
 
-14049575@qq.com, 14049575@qq.com
+Ybm, 14049575@qq.com
 
 ## License
 
