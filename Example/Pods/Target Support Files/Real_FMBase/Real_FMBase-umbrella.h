@@ -15,6 +15,7 @@
 #import "UIImage+Image.h"
 #import "UISearchBar+FMAdd.h"
 #import "UIView+YBmFrame.h"
+#import "YbmAFNHelper.h"
 
 FOUNDATION_EXPORT double Real_FMBaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char Real_FMBaseVersionString[];

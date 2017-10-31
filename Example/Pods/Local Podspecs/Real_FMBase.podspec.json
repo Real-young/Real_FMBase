@@ -1,22 +1,27 @@
 {
   "name": "Real_FMBase",
-  "version": "0.1.0",
-  "summary": "A short description of Real_FMBase.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/14049575@qq.com/Real_FMBase",
+  "version": "0.2.0",
+  "summary": "Real_FMBase.",
+  "description": "Real_FMBase include basic configuration file.",
+  "homepage": "https://github.com/Real-young/Real_FMBase",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "14049575@qq.com": "14049575@qq.com"
+    "Ybm": "14049575@qq.com"
   },
   "source": {
-    "git": "https://github.com/14049575@qq.com/Real_FMBase.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Real-young/Real_FMBase.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Real_FMBase/Classes/**/*"
+  "source_files": "Real_FMBase/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }
