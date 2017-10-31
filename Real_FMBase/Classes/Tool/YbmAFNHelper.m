@@ -41,7 +41,7 @@ typedef void(^reachabilityBlock)(NSString * status);
 {
     [self netWorkingStatusBlock:^(NSString *status) {
         if ([status isEqual: @"当前网络已断开"]) {
-//            [MessageWindow messageWindowString:status];
+            //TODO
         }
     }];
     [[YbmAFNHelper shareManager] GET:url parameters:parameter progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
@@ -57,7 +57,7 @@ typedef void(^reachabilityBlock)(NSString * status);
 {
     [self netWorkingStatusBlock:^(NSString *status) {
         if ([status isEqual: @"当前网络已断开"]) {
-//            [MessageWindow messageWindowString:status];
+            //TODO
             return ;
         }
     }];
