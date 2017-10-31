@@ -41,7 +41,7 @@ typedef void(^reachabilityBlock)(NSString * status);
 {
     [self netWorkingStatusBlock:^(NSString *status) {
         if ([status isEqual: @"当前网络已断开"]) {
-            [MessageWindow messageWindowString:status];
+//            [MessageWindow messageWindowString:status];
         }
     }];
     [[YbmAFNHelper shareManager] GET:url parameters:parameter progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
@@ -57,7 +57,7 @@ typedef void(^reachabilityBlock)(NSString * status);
 {
     [self netWorkingStatusBlock:^(NSString *status) {
         if ([status isEqual: @"当前网络已断开"]) {
-            [MessageWindow messageWindowString:status];
+//            [MessageWindow messageWindowString:status];
             return ;
         }
     }];
@@ -124,7 +124,7 @@ typedef void(^reachabilityBlock)(NSString * status);
     if (jsonString == nil) {
         return nil;
     }
-    BMLog(@"%@",jsonString);
+    NSLog(@"%@",jsonString);
     NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
     NSError *err;
     NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&err];
