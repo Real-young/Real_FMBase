@@ -4,7 +4,7 @@
 //
 //  Created by ybm on 2017/10/31.
 //
-//
+//网络请求工具类  依赖AFN
 
 #import "YbmSessionManager.h"
 #import "AFNetworking.h"
