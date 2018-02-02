@@ -1,6 +1,6 @@
 {
   "name": "Real_FMBase",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "summary": "Real_FMBase.",
   "description": "Real_FMBase include basic configuration file.",
   "homepage": "https://github.com/Real-young/Real_FMBase",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Real-young/Real_FMBase.git",
-    "tag": "0.4.1"
+    "tag": "0.4.3"
   },
   "platforms": {
     "ios": "8.0"

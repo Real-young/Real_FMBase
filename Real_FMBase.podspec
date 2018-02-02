@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Real_FMBase'
-  s.version          = '0.4.3'
+  s.version          = '0.4.4'
   s.summary          = 'Real_FMBase.'
 
 # This description is used to generate tags and improve search results.

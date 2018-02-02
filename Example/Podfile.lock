@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - Real_FMBase (0.4.1):
+  - Real_FMBase (0.4.3):
     - AFNetworking
 
 DEPENDENCIES:
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  Real_FMBase: 9f86d19c64ad0a7695f4dbab3b81c94ad5433340
+  Real_FMBase: 7e42d47c5d286641d3bfdf6d2a2160b28cdc4b49
 
 PODFILE CHECKSUM: 9597b739fcd6ed176862f3a1196e059bf735cbb8
 

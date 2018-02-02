@@ -1,6 +1,6 @@
 //
 //  NSString+Hash.m
-//
+//  散列函数
 
 #import "NSString+Hash.h"
 #import <CommonCrypto/CommonCrypto.h>
