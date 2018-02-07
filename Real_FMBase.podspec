@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Real_FMBase'
-  s.version          = '0.4.5'
+  s.version          = '0.5.0'
   s.summary          = 'Real_FMBase.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,20 @@ Real_FMBase include basic configuration file.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Real_FMBase/Classes/**/*'
+#s.source_files = 'Real_FMBase/Classes/**/*'
+
+    s.subspec 'Base' do |b|
+        b.source_files = 'Real_FMBase/Classes/Base/**/*'
+    end
+
+    s.subspec 'Category' do |c|
+        c.source_files = 'Real_FMBase/Classes/Category/**/*'
+    end
+
+    s.subspec 'Tool' do |t|
+        t.source_files = 'Real_FMBase/Classes/Tool/**/*'
+        t.dependency 'AFNetworking'
+    end
   
   # s.resource_bundles = {
   #   'Real_FMBase' => ['Real_FMBase/Assets/*.png']
@@ -38,5 +51,5 @@ Real_FMBase include basic configuration file.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking'
+#s.dependency 'AFNetworking'
 end
